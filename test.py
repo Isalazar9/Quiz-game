@@ -32,7 +32,7 @@ for num, (question, alternatives) in enumerate(QUESTIONS.items(), start=1):
     answer = labeled_alternatives[answer_label]
     if answer == correct_answer:
         num_correct += 1
-        print("⭐ Correct! ⭐")
+        print(" Correct! ")
     else:
         print(f"The answer is {correct_answer!r}, not {answer!r}")
 
